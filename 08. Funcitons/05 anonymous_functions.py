@@ -28,6 +28,6 @@ print()
 
 from functools import reduce
 # Using reduce to compute the product
-product = reduce(lambda x, y: x * y, numbers)
+product = reduce(lambda x, y: x + y, numbers)
 print(product)  # Output: 120
 
