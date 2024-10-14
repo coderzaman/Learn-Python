@@ -1,9 +1,6 @@
 # Exercise 1: Multiplication Table
 # Task: Write a program that prints the multiplication table for numbers 1 through 5.
-import time
-from symbol import factor
-
-from babel.dates import time_
+import math
 
 for i in range(1,6):
     for j in range(1,11):
@@ -13,17 +10,17 @@ for i in range(1,6):
 # Exercise 2: Prime Number Checker
 # Task: Write a program that checks if a given number is a prime number.
 
-# user_input = int(input("Enter a Number Check Prime or Not: "))
-#
-# if user_input < 2:
-#     print(f'{user_input} is not a prime number')
-# else:
-#     for i in range(2, int(user_input**0.5)+1):
-#         if user_input % 2 == 0:
-#             print(f'{user_input} is a prime number')
-#             break
-#     else:
-#         print(f'{user_input} is not a prime number')
+user_input = int(input("Enter a Number Check Prime or Not: "))
+
+if user_input < 2:
+    print(f'{user_input} is not a prime number')
+else:
+    for i in range(2,  int(math.floor(user_input**0.5)) +1):
+        if user_input % 2 == 0:
+            print(f'{user_input} is a prime number')
+            break
+    else:
+        print(f'{user_input} is a prime number')
 
 
 # Exercise 3: FizzBuzz

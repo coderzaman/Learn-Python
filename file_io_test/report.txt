@@ -1,0 +1,6 @@
+
+Report Summary
+--------------
+Total Users: 150
+Active Users: 120
+New Signups Today: 5

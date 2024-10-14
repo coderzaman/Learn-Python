@@ -24,12 +24,12 @@ Note:
 
 
 [factorial(5)]
-{5} * [factorial(4)]
-5 * {4} * [factorial(3)]
-20 * {3} * [factorial(2)]
-60 * {2} * [factorial(1)]
+{5 * [factorial(4)]} 
+5 * {4* [factorial(3)]} 
+20 * {3 * [factorial(2)]} 
+60 * {2 * [factorial(1)]} 
+120 * {1 * [factorial(0)]} 
 120 * 1
-120
 """
 
 # Example: Fibonacci Sequence
@@ -62,7 +62,7 @@ fibonacci(6)
 
 {1} + [fibonacci(0)}] + fibonacci(1) + fibonacci(2) + fibonacci(3) + fibonacci(4)
 1 + {0} + [fibonacci(1)]+ fibonacci(2) + fibonacci(3) + fibonacci(4)
-1 + {1} + fibonacci(2) + fibonacci(3) + fibonacci(4)
+1 + {1} + [fibonacci(2)] + fibonacci(3) + fibonacci(4)
 2 + {[fibonacci(1)] + fibonacci(0)} + fibonacci(3) + fibonacci(4)
 2 + {1} + [fibonacci(0)] + fibonacci(3) + fibonacci(4)
 3 + {0} + [fibonacci(3)] + fibonacci(4)

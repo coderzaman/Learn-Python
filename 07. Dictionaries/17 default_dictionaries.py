@@ -37,6 +37,7 @@ for word in words:
 
 print(words_counts)
 
+
 # Grouping: Grouping items based on a key.
 students = [
     {"name": "Alice", "grade": "A"},

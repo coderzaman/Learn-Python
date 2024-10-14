@@ -2,7 +2,7 @@
 x = 10
 y = 10.34
 
-print(x+y) #automatich typecast to float
+print(x+y) #automatic typecast to float
 
 
 x = "hello"

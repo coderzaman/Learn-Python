@@ -9,3 +9,4 @@ print(s.title())  # Output: "Hello, World!"
 # .swapcase() swaps the case of each character.
 s = "Hello, World!"
 print(s.swapcase())  # Output: "hELLO, wORLD!"
+print(s.swapcase().swapcase())

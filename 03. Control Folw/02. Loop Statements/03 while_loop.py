@@ -16,7 +16,6 @@ print()
 i = j = 1
 
 while i <= 10:
-
     while j <= 10:
         print(f'{i} * {j} = {i*j}')
         j = j+1

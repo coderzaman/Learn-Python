@@ -5,7 +5,7 @@
 # .index() raises a ValueError if the substring is not found.
 
 s = "Hello, World!"
-print(s.find("H"))
+print(s.find("l"))
 
 s = "Hello, World!"
 

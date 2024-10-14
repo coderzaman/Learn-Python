@@ -1,6 +1,6 @@
 # Variable storing an integer
 x = 5
-print(x);
+print(type(x))
 
 # Variable storing a string
 name = "Alice"

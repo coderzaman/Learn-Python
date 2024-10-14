@@ -39,3 +39,7 @@ a, b = b, a
 
 print(a)  # Output: 20
 print(b)  # Output: 10
+
+data = (1, 2, 3, 4, 5)
+*a, b, c,d = data
+print(a,b,c,d)

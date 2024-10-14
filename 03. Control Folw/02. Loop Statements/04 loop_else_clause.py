@@ -13,7 +13,7 @@ for num in range(5):
     if num == 2:
         break
 else:
-    print("Loop completed without break.")
+    print("Loop completed with break.")
 
 # Example Without break
 count = 0

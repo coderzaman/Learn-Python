@@ -26,3 +26,8 @@ string_data = "World"
 # After converting string to list Each char of string should be an list Item
 my_List = list(string_data)
 print(my_List)
+
+
+# with constructor
+new_list = list([1,2,3,5])
+print(new_list)

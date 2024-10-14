@@ -1,15 +1,15 @@
 # Strings can be created in various ways:
 # Using single quotes
 
-
-string1 = 'Hello, World!'
+string1 = 'Hello, World! '
 
 # Using double quotes
 string2 = "Hello, World!"
 
 # Using triple quotes for multi-line strings
 string3 = """Hello,
-World!"""
+World! 
+"""
 
 #Converting number to string. Number can be integer or float
 string4 = str(12.3)

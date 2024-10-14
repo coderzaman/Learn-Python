@@ -29,3 +29,4 @@ def check_condition():
 
 if False and check_condition():
     print("This won't print.")
+

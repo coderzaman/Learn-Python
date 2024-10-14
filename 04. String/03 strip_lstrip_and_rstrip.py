@@ -6,6 +6,8 @@ print(s.lstrip())
 print(s.rstrip())
 
 # Removing Specific Characters:
-s = "###Hello, World!###"
+s = "###Hello, # World!###"
 print(s.strip("#"))
+print(s.lstrip("#"))
+
 

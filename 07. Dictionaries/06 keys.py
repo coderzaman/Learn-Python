@@ -1,7 +1,7 @@
 # Description: Returns a view object containing all the keys in the dictionary.
 person = {"name": "Alice", "age": 30, "profession": "Engineer"}
 keys = person.keys()
-print(type(dict))
+print(type(keys))
 print(keys)
 
 # Iterating through keys

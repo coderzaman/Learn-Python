@@ -1,5 +1,6 @@
 # Basic Syntax:
 # new_list = [expression for item in iterable if condition]
+import time
 
 # Examples:
 # Square Number 2 to 10
@@ -22,3 +23,8 @@ matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 # make flattened list
 flatted_list = [item for sublist in matrix for item in sublist]
 print(flatted_list)
+
+# make even flatted list
+flatted_list = [item for sublist in matrix for item in sublist if item % 2 == 0]
+print(flatted_list)
+

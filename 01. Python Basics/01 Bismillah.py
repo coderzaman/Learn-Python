@@ -1,1 +1,1 @@
-print("Bismillahir Rahmair Rahim");
+print("Bismillahir Rahmair Rahim")
