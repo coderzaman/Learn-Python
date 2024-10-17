@@ -32,7 +32,7 @@ def taking_student_score():
         validator = True
         while validator:
             try:
-                score = float(input(f"Enter Score for {subject}: "))  # Take user based on subject
+                score = float(input(f"Enter Score for {subject}: "))  # Take score input based on subject
                 if not 0 < score < 101:
                     raise TypeError("Number Must be within 0-100")
 
@@ -43,7 +43,7 @@ def taking_student_score():
             except ValueError as e:
                 print(f"Please Input Numerical Value. {score} is not a Number")
 
-# Take Score to List
+# Take scores by user and store in the List
 taking_student_score()
 
 # Separator
