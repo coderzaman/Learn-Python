@@ -1,6 +1,6 @@
 # a. sort() Method
 # Sorts the list in place, modifying the original list.
-from audioop import reverse
+
 
 # Syntax
 # my_list.sort(reverse=False, key=None)
@@ -54,3 +54,17 @@ print(people)
 
 # Sort first by name, then by age with sorted
 sorted_with_multiple_key = sorted(people, key=lambda person:(person["name"],person["age"]))
+
+
+
+
+# List sorting with key=str.lower
+# key does not change the value of main or sorted list item. It only converts each element of list item to lower then compare.
+# then sort the item. But does no any affect in the list
+
+list1 = ["A","a", "B", "b","C", "c","d","D"]
+list1.sort()
+
+print(list1)
+
+list1.sort(key = str.upper )
